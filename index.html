@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link href="css/media.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Shibily Muhammed</title>
+</head>
+
+<body>
+    <section>
+        <div class="section1">
+
+            <div class="section1Content">
+                <div>
+
+                    <h1 class="section1Name">Shibily Muhammed</h1>
+                </div>
+                <div>
+
+                    <h4 class="section1Description">Web developer <span
+                            style="font-size: 18px; color:rgba(165, 165, 165, 0.589);"><i
+                                class="bi bi-record-fill"></i></span> Graphic designer</h4>
+                </div>
+                <div class="section1Nav" id="myHeader">
+
+                    <header class="">
+                        <nav class="navbar">
+                            <ul class="nav-menu">
+                                <li class="nav-item">
+                                    <a href="#intrests" class="nav-link">Intrests</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="hamburger">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </nav>
+                    </header>
+                </div>
+            </div>
+            <div class="section1ImageDiv">
+                <img class="section1Image" src="/public/2.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="intrests" class="section2">
+        <div>
+            <div class="section2headDiv">
+                <h4 class="section2head">Intrests</h4>
+            </div>
+            <div>
+                <div class="section2content">
+                    
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon1"><i class="bi bi-slack"></i></span>
+                            <p class="section2itemTitle">Creative thinking </p>
+                        </div>
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon2"><i class="bi bi-brush"></i></span>
+                            <p class="section2itemTitle">Drawing</p>
+                        </div>
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon3"><i class="bi bi-controller"></i></span>
+                            <p class="section2itemTitle">Gaming</p>
+                        </div>
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon4"><i class="bi bi-layers"></i></span>
+                            <p class="section2itemTitle">Graphic designing</p>
+                        </div>
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon5"><i class="bi bi-camera"></i></span>
+                            <p class="section2itemTitle">Photography</p>
+                        </div>
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon6"><i class="bi bi-terminal"></i></span>
+                            <p class="section2itemTitle">Programming</p>
+                        </div>
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon7"><i class="bi bi-camera-reels"></i></span>
+                            <p class="section2itemTitle">Video crating</p>
+                        </div>
+                        <div class="section2itemDiv">
+                            <span class="section2itemIcon8"><i class="bi bi-pen"></i></span>
+                            <p class="section2itemTitle">Creative Writing</p>
+                        </div>
+                       
+                       
+                       
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+</script>

@@ -1,0 +1,158 @@
+
+                                /* section 1 */
+.section1ImageDiv{
+    
+    overflow: hidden;
+    display: flex;
+}
+.section1Image{
+    height: 400px;
+    
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+.section1Content{
+    margin-top: 140px;
+    margin-left: 7%;
+}
+.section1Name{
+    font-weight:bold;
+    position: absolute; 
+}
+.section1Description{
+    position: absolute;
+    margin-top: 60px;
+}
+.section1Nav{
+    position: unset;
+    top: 0;
+    margin-top: 80px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+
+ .nav-menu {
+    display: flex;
+    justify-content: left;
+    
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 500;
+    color: #666666;
+}
+.nav-link:hover{
+    color: #00df9c;  
+}
+.nav-link:active{
+    color: #00df9c;  
+}
+
+
+/* secton 2 */
+.section2headDiv{
+    padding-top: 15px;
+}
+.section2head::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #00df9c;
+    margin: 0px 10px;
+}
+.section2itemDiv{
+    width: 25%;
+    background-color: rgb(46, 46, 46);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+    display: flex;
+    padding: 20px;
+    padding-left: 25px;
+    
+}
+.section2content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.section2itemIcon1{
+    color: rgb(255, 38, 0);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.section2itemIcon2{
+    color: rgb(166, 255, 0);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.section2itemIcon3{
+    color: rgb(0, 119, 255);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.section2itemIcon4{
+    color: rgb(234, 0, 255);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.section2itemIcon5{
+    color: rgb(255, 187, 0);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.section2itemIcon6{
+    color: rgb(0, 255, 157);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.section2itemIcon7{
+    color: rgb(255, 0, 98);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.section2itemIcon8{
+    color: rgb(6, 167, 0);
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.section2itemTitle{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
