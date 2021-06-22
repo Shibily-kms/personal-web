@@ -138,12 +138,15 @@
     .section2{
         padding-left: 50px;
         padding-right: 50px;
+        
     }
     .section2itemDiv{
         width: 47%;
 
     }
 }
+
+/* section 3 */
 
 
 @media screen and (max-width:375px){

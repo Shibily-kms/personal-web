@@ -80,6 +80,7 @@
 /* secton 2 */
 .section2headDiv{
     padding-top: 15px;
+    
 }
 .section2head::after{
     content: "";
@@ -155,4 +156,7 @@
     margin-left: 5px;
 }
 
-
+/* section 3 */
+.section3{
+    margin-top: 40px;
+}
