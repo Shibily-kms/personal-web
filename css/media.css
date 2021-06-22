@@ -36,11 +36,20 @@
     .section5Item{
         width: 32%;
     }
+    .section5aboutText{
+        margin-bottom: 20px;
+    }
+    .setion5Image2{
+        display: none;
+    }
 }
 @media screen and (max-width:1024px){
     .section2itemDiv{
         width: 30.33%;
     
+    }
+    .section5aboutText{
+        margin-bottom: 15px;
     }
 
 
@@ -163,7 +172,61 @@
         width: 48%;
     }
 
+    /* section 5 */
 
+
+.section5Item{
+    position: relative;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.setion5Image{
+    display: none;
+}
+.setion5Image2{
+    width: 300px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+.section5ImageDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.section5Content{
+    margin-top: 10px;
+    display:block;
+}
+.section5About{
+    margin-left: 20px;
+}
+.section5Icons{
+    font-size: 25px;
+    color: #00df9c;
+    margin-right: 10px;
+}
+    .section5aboutText{
+        margin-bottom: 8px;
+    }
+
+/* footer */
+footer .bi{
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    background-color: rgb(151, 151, 151);
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 100px;
+    
+}
 
 }
 
@@ -210,4 +273,33 @@
     .section5Item{
         width: 100%;
     }
+    .setion5Image2{
+        width: 200px;
+    }
+    /* footer */
+    footer .bi{
+        color: rgb(31, 31, 31);
+        font-size: 15px;
+        background-color: rgb(151, 151, 151);
+        padding: 5px;
+        padding-top: 3.5px;
+        padding-bottom: 3.5px;
+        border-radius: 100px;
+        
+    }
+    .linkIcon{
+        margin: 2px;
+  
+    }
+    .footerText{
+        text-align: center;
+        font-size: 10px;
+        
+    
+   }
+
+
+
+
+
 }
