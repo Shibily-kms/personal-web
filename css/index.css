@@ -160,3 +160,44 @@
 .section3{
     margin-top: 40px;
 }
+.section4Content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.section4Item{
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sesction4image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 30px;
+}
+.section4imagetitle{
+    text-align: center;
+}
+.section4description{
+    text-align: center;
+    color: rgb(129, 129, 129);
+    font-weight: 600;
+    margin-top: 5px;
+}
+.section4Year{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 3px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 20px;
+}
