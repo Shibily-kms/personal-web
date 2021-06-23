@@ -283,3 +283,111 @@ footer .bi{
 .footerTextAtag{
     color: #00df9c
 }
+/* section6 */
+.formDiv{
+    
+}
+.section6Conternt{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.input-group{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-group input{
+    
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background:none;
+    border: none;
+    border:  solid rgb(128, 128, 128) 1px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.input-group input:focus {
+    border-color: #00df9c;
+}
+
+.input-group textarea{
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 28px;
+    color: white;
+    background:none;
+    border: none;
+    border:  solid rgb(128, 128, 128) 1px;
+    border-radius: 7px;
+    resize: vertical;
+    
+    height: 200px;
+}
+.input-group textarea:focus{
+    border-color: #00df9c;
+}
+
+.input-group label{
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(201, 201, 201);
+    transition: 0.5s ease-in-out;
+  
+}
+.input-group input:focus ~label{
+    top: -10px;
+    font-size: 14px;
+    color: #00df9c;  
+    background-color: #111111;  
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.input-group input:valid ~label{
+    top: -10px;
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+    background-color: #111111; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.input-group textarea:focus ~label{
+    top: -10px;
+    font-size: 14px;
+    color: #00df9c;  
+    background-color: #111111;  
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.input-group textarea:valid ~label{
+    top: -10px;
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+    background-color: #111111; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.input-group button{
+
+}
+.formSubmit{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

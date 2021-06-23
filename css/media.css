@@ -75,6 +75,9 @@
     h6{
         font-size: 14px;
     }
+    p{
+        font-size: 14px;
+    }
     
                                 /* section 1 */
 .section1ImageDiv{
@@ -216,6 +219,9 @@
     .section5aboutText{
         margin-bottom: 8px;
     }
+    .section5SubText{
+        font-size: 12px;
+    }
 
 /* footer */
 footer .bi{
@@ -228,11 +234,36 @@ footer .bi{
     border-radius: 100px;
     
 }
+/* form section */
+.input-group{
+
+    width: 500px;
+    position: relative;
+}
+.input-group label{
+    font-size: 14px;
+}
+.input-group input{
+    font-size: 14px;
+}
+.input-group textarea{
+    font-size: 14px;
+}
 
 }
 
+@media screen and (max-width:600px){
+    .input-group{
 
+        width: 365px;
+        position: relative;
+    }
+    .footerText{
+        text-align: center;
+        font-size: 10px;
 
+   }
+}
 
 @media screen and (max-width:375px){
 
@@ -253,6 +284,9 @@ footer .bi{
         font-size: 16px;
     }
     h6{
+        font-size: 12px;
+    }
+    p{
         font-size: 12px;
     }
     /* section2 */
@@ -278,6 +312,9 @@ footer .bi{
         width: 200px;
         height: 200px;
     }
+    .section5SubText{
+        font-size: 10px;
+    }
     /* footer */
     footer .bi{
         color: rgb(31, 31, 31);
@@ -299,7 +336,20 @@ footer .bi{
         
     
    }
+   .input-group{
 
+    width: 300px;
+    position: relative;
+}
+.input-group label{
+    font-size: 12px;
+}
+.input-group input{
+    font-size: 12px;
+}
+.input-group textarea{
+    font-size: 12px;
+}
 
 
 
