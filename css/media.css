@@ -189,7 +189,8 @@
     display: none;
 }
 .setion5Image2{
-    width: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     margin-bottom: 15px;
 }
@@ -275,6 +276,7 @@ footer .bi{
     }
     .setion5Image2{
         width: 200px;
+        height: 200px;
     }
     /* footer */
     footer .bi{

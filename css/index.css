@@ -240,6 +240,10 @@
 .section5aboutText{
     margin-bottom: 15px;
 }
+.section5SubText{
+    color: rgb(117, 117, 117);
+    font-size: 13px;
+}
 /* footer */
 footer{
     background-color:rgb(31, 31, 31) ;
