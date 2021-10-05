@@ -133,7 +133,7 @@
 
                 <div class="section2itemDiv">
                     <span class="section2itemIcon1" style="color: rgb(0, 255, 34);"><i
-                            class="bi bi-code-slash"></i></span>
+                            class="bi bi-camera-video"></i></span>
                     <p class="section2itemTitle">Corel Drow </p>
                 </div>
                 <div class="section2itemDiv">
@@ -454,4 +454,16 @@
         navMenu.classList.toggle("active");
         
     }
+</script>
+
+<script>
+    const navLink = document.querySelector(".nav-link");
+    const navMenu = document.querySelector(".nav-menu");
+
+    navLink.addEventListener("click", mobileMenu);
+
+    function mobileMenu(){
+        navMenu.className.toggle ("nav-menu")
+    }
+    
 </script>
