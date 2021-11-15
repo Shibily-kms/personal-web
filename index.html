@@ -355,7 +355,7 @@
     </script>
         
         <h4>Device checking</h4>
-        <h4 id="mobile"></h4>
+        <h4 id="mobile">hi</h4>
         
         
         <script>
@@ -371,12 +371,12 @@
                     var AndroidMobile = platform.description.match(Android);
                     var iphone = platform.description.match(ios);
                     if(AndroidMobile){
-                       document.getElementById('mobile').textContent = "this Device Androind";
+                       document.getElementById('mobile').innerHTML = "this Device Androind";
                     }else if(iphone){
-                     document.getElementById('mobile').textContent = "this Device iphone";
+                     document.getElementById('mobile').innerHTML = "this Device iphone";
 
                     }else{
-  document.getElementById('mobile').textContent = "this Device PC or Other";
+  document.getElementById('mobile').innerHTML = "this Device PC or Other";
                     }
 
   </script>
