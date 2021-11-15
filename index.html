@@ -353,6 +353,31 @@
      document.getElementById('os').textContent = platform.os;
      document.getElementById('description').textContent = platform.description;
     </script>
+        
+        <h4>Device checking</h4>
+        <h4 id="mobile"></h4>
+        
+        
+        <script>
+
+    let Android = "Androind"
+      Android = new RegExp('(\\w*' + Android + '\\w*)', 'gi');
+    let ios = "iphone"
+      ios = new RegExp('(\\w*' + ios + '\\w*)', 'gi');
+
+
+              
+
+                    var AndroidMobile = platform.description.match(Android);
+                    var iphone = platform.description.match(ios);
+                    if(AndroidMobile){
+                       document.getElementById('mobile').textContent = "this Device Androind";
+                    }else if(iphone){
+                     document.getElementById('mobile').textContent = "this Device iphone";
+
+                    }
+
+  </script>
     <!-- section 6 -->
     <section  class="section2 section3">
         <div>
